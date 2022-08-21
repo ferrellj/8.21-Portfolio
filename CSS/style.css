@@ -1,0 +1,48 @@
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    margin: 1%;
+    height: 5%;
+    background-color: white;
+}
+
+a{
+    font-size:16pt ;
+    text-decoration: none;
+    color: black;
+    font-family: roboto, sans-serif;
+
+}
+a:hover,a:active{
+    font-weight: 700;
+    background-color: #707070;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-family: roboto, sans-serif;
+
+}
+
+h1{
+    color:black;
+    font-size: 36pt;
+    font-family:anisette-petite,sans-serif;
+    font-weight: 700;
+  }
+
+.heroContainer{
+    display: flex;
+    background-image: url(/Images/HeroIMGfade.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textBox{
+    width: 30%;
+    margin: 17%;
+}
+.heroContainer img{
+    margin:5% ;
+}
