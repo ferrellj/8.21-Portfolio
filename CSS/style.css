@@ -1,31 +1,35 @@
-.navLinks{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: sticky;
-    margin: 1%;
-    height: 5%;
-    background-color: white;
-}
 
-a{
-    font-size:16pt ;
-    text-decoration: none;
-    color: black;
-    font-family: roboto, sans-serif;
 
-}
-a:hover,a:active{
-    font-weight: 700;
-    background-color: #707070;
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 10px 24px;
-    text-decoration: none;
-    font-family: roboto, sans-serif;
-
-}
-
+  .navbar{
+    background-color: transparent;
+  }
+  
+  a{
+    font-size: 14pt;
+    font-family:anisette-petite,sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right:30px;
+    color:black;
+    
+  }
+  
+  /* visited link */
+  .menu a:visited {
+    color:#454545
+  }
+  
+  /* mouse over link */
+  .menu a:hover {
+    color:#454545
+    
+  }
+  
+  /* selected link */
+  .menu a:active {
+    color:#454545
+  }
+  
 h1{
     color:black;
     font-size: 36pt;
