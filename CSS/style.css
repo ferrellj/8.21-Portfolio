@@ -1,35 +1,5 @@
 
 
-  .navbar{
-    background-color: transparent;
-  }
-  
-  a{
-    font-size: 14pt;
-    font-family:anisette-petite,sans-serif;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-right:30px;
-    color:black;
-    
-  }
-  
-  /* visited link */
-  .menu a:visited {
-    color:#454545
-  }
-  
-  /* mouse over link */
-  .menu a:hover {
-    color:#454545
-    
-  }
-  
-  /* selected link */
-  .menu a:active {
-    color:#454545
-  }
-  
 h1{
     color:black;
     font-size: 36pt;
@@ -49,4 +19,18 @@ h1{
 }
 .heroContainer img{
     margin:5% ;
+}
+.jumbotron{
+    background-color: #E4D2C8;
+    display: flex;
+    padding: 6%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.left{
+
+}
+.right{
+    padding-left:6%;
 }
