@@ -76,6 +76,8 @@ ul{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .skills_container{
   background-color:#D4D4D4;
