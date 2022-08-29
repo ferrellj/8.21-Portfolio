@@ -21,11 +21,12 @@ function navigatecaseStudies(e) {
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
 var menu= document.querySelector(".icon");
-if(menu.addEventListener("click", myFunction() {
+if(menu.addEventListener){
+    menu.addEventListener("click",function(){
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
       x.className = "topnav";
     }
-  })
+}
