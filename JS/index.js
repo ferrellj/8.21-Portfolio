@@ -19,11 +19,13 @@ function navigatecaseStudies(e) {
 } 
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
+
+var menu= document.querySelector(".icon");
+if(menu.addEventListener("click", myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
       x.className = "topnav";
     }
-  }
+  })
