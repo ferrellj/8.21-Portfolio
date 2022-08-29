@@ -41,13 +41,8 @@ a:hover{
 .navLinks{
   flex: 9.5;
 }
-ul{
-  display: flex;
-  text-decoration: none;
-  align-items: center;
-  justify-content: flex-start;
-}
-.navLinks li{
+
+.navLinks a{
   margin-left: 2%;
 }
 
