@@ -203,15 +203,20 @@ justify-content: center;
 footer{
   background-color:#D4D4D4;
     height: 300px;
-    flex-wrap: wrap;
   }
   .footerContent{
     display: flex;
     align-items: center;
     margin-top: 15%;
-    justify-content: space-around;
+    justify-content: space-evenly;
   
   }
 
-
+.footerLinks{
+  display: flex;
+  flex-direction: column;
+}
+.footerLinks a{
+  margin-bottom: 14px;
+}
   
