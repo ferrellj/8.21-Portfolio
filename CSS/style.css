@@ -63,13 +63,13 @@ ul{
   flex: 5;
   width: 30%;
   margin: 10%;
-  flex-basis: 500px;
+  flex-basis: 300px;
 
 }
 .heroContainer img{
   flex: 5;
   margin:5% ;
-  flex-basis: 500px;
+  flex-basis: 300px;
 
 }
 .title{
