@@ -22,7 +22,9 @@ function navigatecaseStudies(e) {
 
 var menu= document.querySelector(".icon");
 if(menu.addEventListener){
-    menu.addEventListener("click",function(){
+    menu.addEventListener("click", displaymenu);
+    
+    function displaymenu(e){
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
