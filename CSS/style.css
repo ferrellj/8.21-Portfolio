@@ -96,7 +96,7 @@ a:hover{
     display: flex;
     background-image: url(../Images/HeroIMGfade.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   flex-wrap: wrap;
 }
 .textBox{
