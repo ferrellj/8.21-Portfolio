@@ -1,6 +1,6 @@
 
 body{
-  font-size:calc(14px + 0.25vw);
+  font-size:calc(12px + 0.25vw);
   line-height:calc(22px + 1vw);
   color: black;
   font-family: roboto, sans-serif;
@@ -28,12 +28,15 @@ a:hover{
 
 .navbar{
   display: flex;
-  background-color: transparent;
-  position: sticky;
-
+  position: fixed;
+  background-color: white;
+  top: 0;
+  width: 100%;
+  height: 100px;
 }
 .logo{
   flex: .5;
+  padding: 1%;
 }
 .navLinks{
   flex: 9.5;
