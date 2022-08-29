@@ -28,37 +28,6 @@ a:hover{
 
 /*NAVIGATION*/
 
-.navbar{
-  display: flex;
-  position: fixed;
-  background-color: white;
-  overflow: hidden;
-  top: 0;
-  width: 100%;
-  margin-bottom: 5%;
-}
-.logo{
-  flex: .5;
-  padding: 1%;
-}
-.navLinks{
-  flex: 9.5;
-}
-
-.navLinks a{
-  float: left;
-  display: block;
-  margin-left: 2%;
-}
-
-
-.navLinks a.active {
-  font-weight: 700;
-}
-.navLinks .icon {
-  display: none;
-}
-
 
 /* Add a black background color to the top navigation */
 .topnav {
