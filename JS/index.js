@@ -24,7 +24,7 @@ var menu= document.querySelector(".icon");
 if(menu.addEventListener){
     menu.addEventListener("click", displaymenu);
     
-    function displaymenu(e){
+    function displaymenu(){
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
