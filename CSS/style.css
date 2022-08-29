@@ -4,6 +4,9 @@ body{
   line-height:calc(22px + 1vw);
   color: black;
 }
+p{
+  padding: 2%;
+}
 h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
 h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
 h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
@@ -20,6 +23,28 @@ h1,h2,h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.skills_container{
+  background-color:#D4D4D4;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+margin-bottom: 5%;
+}
+.research, .ui, .webDev{
+flex: 10;
+height: 100%;
+flex-basis: 400px;
+padding:1%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+
 .textBox{
     width: 30%;
     margin: 10%;
@@ -27,25 +52,6 @@ h1,h2,h3 {
 .heroContainer img{
     margin:5% ;
 }
-.card-group{
-    background-color:#D4D4D4;
-    padding: 2%;
-    margin: 0 auto;
-    height: 30%;
-  }
-  .card-deck{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .card-body a{
-    font-size: 14pt;
-    font-family: roboto, sans-serif;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    color:black
-  }
-  
 .jumbotron{
     background-color: #E4D2C8;
     display: flex;
