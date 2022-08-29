@@ -203,6 +203,7 @@ justify-content: center;
 footer{
   background-color:#D4D4D4;
     height: 300px;
+    flex-wrap: wrap;
   }
   .footerContent{
     display: flex;
