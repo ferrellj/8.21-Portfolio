@@ -18,16 +18,9 @@ function navigatecaseStudies(e) {
     behavior:"smooth"});
 } 
 
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+const togglebutton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navLinks')[0]
 
-
-    $(".icon").addEventListener("click", displaymenu);
-    
-    function displaymenu(){
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-}
+togglebutton.addEventListener('click',()=> {
+  navbarLinks.classList.toggle('active')
+})
