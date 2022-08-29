@@ -1,14 +1,18 @@
 
+body{
+  font-size:calc(14px + 0.5vw);
+  line-height:calc(22px + 1vw);
+  color: black;
+}
+h1{font-size: 1.6em; line-height: calc(30px + 1vw);}
+h2{font-size: 1.4em;line-height: calc(26px + 1vw);}
+h3{font-size: 1.2em;line-height: calc(24px + 1vw);}
 
-h1{
-    color:black;
-    font-size: 36pt;
-    font-family:anisette-petite,sans-serif;
-    font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
+h1,h2,h3 {
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+}
 
 .heroContainer{
     display: flex;
