@@ -25,11 +25,52 @@ a{
 a:hover{
   font-weight: 700;
 }
+
+.navbar{
+  display: flex;
+  background-color: transparent;
+  position: sticky;
+
+}
+.logo{
+  flex: .5;
+}
+.navLinks{
+  flex: 9.5;
+}
+ul{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navLinks li{
+  margin-left: 2%;
+}
+
+
+.skills_container img{
+  margin: 2%;
+}
 .heroContainer{
     display: flex;
     background-image: url(/Images/HeroIMGfade.png);
   background-repeat: no-repeat;
   background-size: cover;
+  flex-wrap: wrap;
+}
+.textBox{
+  flex: 5;
+  width: 30%;
+  margin: 10%;
+  flex-basis: 500px;
+
+}
+.heroContainer img{
+  flex: 5;
+  margin:5% ;
+  flex-basis: 500px;
+
 }
 .title{
   display: flex;
@@ -57,13 +98,7 @@ justify-content: center;
 }
 
 
-.textBox{
-    width: 30%;
-    margin: 10%;
-}
-.heroContainer img{
-    margin:5% ;
-}
+
 .jumbotron{
     background-color: #E4D2C8;
     display: flex;
