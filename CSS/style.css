@@ -237,3 +237,7 @@ footer{
 .footerLinks a{
   margin-bottom: 14px;
 }
+
+.footerContent p {
+  margin:0;
+}
