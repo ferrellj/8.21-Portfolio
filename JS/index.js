@@ -1,32 +1,30 @@
 let skillsLink = document.querySelector("#skillsLink");
-let mySkills = document.querySelector("#mySkills");
+let myskills = document.querySelector("#mySkills");
 
 skillsLink.addEventListener("click", navigateMySkills,false);
 
 function navigateMySkills(e) {
-  mySkills.scrollIntoView({
+  myskills.scrollIntoView({
     behavior:"smooth"});
 }
 
-let fskillsLink = document.querySelector("#fskillsLink");
-let mySkills = document.querySelector("#mySkills");
+let caseStudiesLink = document.querySelector("#csLink");
+let caseStudiesSection = document.querySelector("#casestudies");
 
-fskillsLink.addEventListener("click", navigateMySkills,false);
-
-function navigateMySkills(e) {
-  mySkills.scrollIntoView({
+caseStudiesLink.addEventListener("click",navigatecs,false);
+function navigatecs(e){
+  caseStudiesSection.scrollIntoView({
     behavior:"smooth"});
 }
+let contactLink = document.querySelector("#contactLink");
+let contactSection = document.querySelector("#contact");
 
-let csLink = document.querySelector("#csLink");
-let caseStudies = document.querySelector("#caseStudies");
-
-csLink.addEventListener("click", navigatecaseStudies,false);
-
-function navigatecaseStudies(e) {
-  caseStudies.scrollIntoView({
-    behavior:"smooth"});
-} 
+contactLink.addEventListener("click",navigateContactInfo,false);
+function navigateContactInfo(e){
+  contactSection.scrollIntoView({
+    behavior:"smooth"
+  });
+}
 
 
 
