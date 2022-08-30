@@ -1,3 +1,6 @@
+
+   $(document).ready(function(){ 
+
 let skillsLink = document.querySelector("#skillsLink");
 let myskills = document.querySelector("#mySkills");
 
@@ -34,4 +37,4 @@ const navbarLinks = document.getElementsByClassName('navLinks')[0]
 togglebutton.addEventListener('click',()=> {
   navbarLinks.classList.toggle('active')
 })
-
+   })
